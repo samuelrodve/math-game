@@ -1,14 +1,14 @@
 /***** ELEMENTS *****/
-var startButton = document.getElementById("start");
-var stopButton = document.getElementById("stop");
-var inputField = document.getElementById("in");
-var form = document.querySelector("form");
+var startButton = document.getElementById("inicio");
+var stopButton = document.getElementById("parar");
+var inputField = document.getElementById("dentro");
+var form = document.querySelector("forma");
 var p = document.getElementById("p");
 var q = document.getElementById("q");
 var op = document.getElementById("op");
-var response = document.getElementById("response"); // used for Try Again text
-var results = document.getElementById("results");
-var category = document.getElementById("category");
+var response = document.getElementById("respuesta"); // used for Try Again text
+var results = document.getElementById("resultado");
+var category = document.getElementById("categoria");
 
 /***** STATE VARIABLES *****/
 var max = 20;
